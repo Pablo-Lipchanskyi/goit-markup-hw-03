@@ -19,11 +19,13 @@ body{
     line-height:16;
     letter-spacing:0.02em;
 }
-.head li:current,
 .head li:hover,
 .head li:focus{
     background-color:var(--button);
     color: var(--button);
+}
+.current:current{
+    color: var(--logocolor);
 }
 .logo{
     font-family:'Raleway';
