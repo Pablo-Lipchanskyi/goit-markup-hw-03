@@ -1,0 +1,10 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+:root{
+    --bodyback:#e5e5e5;
+    --headback:#ffffff;
+    --footback:#2F303A;
+    --textcolor:#757575;
+    --headtextcolor:#212121;
+}
