@@ -23,9 +23,10 @@ body{
     font-size:26;
     line-height:31;
     letter-spacing:0.03em;
+    color: #2196F3
 }
-.web{
-    color: #2196F3;
+.studio{
+    color: #000000;
 }
 .tel{
     color: var(--textcolor);
@@ -42,6 +43,7 @@ body{
     color: #ffffff;
 }
 .banner>button{
+    font-family: inherit;
     width: 200px;
     height: 50px;
     left: 700px;
@@ -51,6 +53,76 @@ body{
     border-radius: 4px;
     color: #ffffff;
 }
+.banner>button:hover,
+.banner>button:focus{
+    background-color: #188ce8;
+    color:var(--headback);
+}
+.features>h3{
+    color:var(--headtextcolor);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.features>p{
+    color: var(--textcolor);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+.ourwork>h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 .command{
     background-color: #F5F4FA;
+}
+.command>h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.command>li{
+    background-color: var(--headback);
+}
+.footer{
+    background-color: var(--footback);
+}
+.webfoot{
+    color: #ffffff;
+}
+.adress{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255,0.6)
+}
+.atext{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.link:hover,
+.link:focus{
+    background-color: #188ce8;
+    color: var(--headback);
 }
