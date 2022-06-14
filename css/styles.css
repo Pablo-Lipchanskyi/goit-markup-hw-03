@@ -7,15 +7,23 @@ body{
     --footback:#2F303A;
     --textcolor:#757575;
     --headtextcolor:#212121;
+    --logocolor:#2196F3;
+    --buttonhover:#188ce8;
 }
 /* Header */
 .head{
     background-color: var(--headback);
     color:var(--headtextcolor)
-    font-weight:500;
+    font-weight 500;
     font-size:14;
     line-height:16;
     letter-spacing:0.02em;
+}
+.head li:current,
+.head li:hover,
+.head li:focus{
+    background-color:var(--button);
+    color: var(--button);
 }
 .logo{
     font-family:'Raleway';
@@ -23,7 +31,7 @@ body{
     font-size:26;
     line-height:31;
     letter-spacing:0.03em;
-    color: #2196F3
+    color: var(--logocolor)
 }
 .studio{
     color: #000000;
@@ -48,14 +56,14 @@ body{
     height: 50px;
     left: 700px;
     top: 430px;
-    background: #2196F3;
+    background: var(--logocolor);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff;
 }
 .banner>button:hover,
 .banner>button:focus{
-    background-color: #188ce8;
+    background-color: var(--buttonhover);
     color:var(--headback);
 }
 .features>h3{
