@@ -1,5 +1,5 @@
 body{
-    font-family: Roboto, sans-serif;
+    font-family:'Roboto',sans-serif;
 }
 :root{
     --bodyback:#e5e5e5;
@@ -7,4 +7,36 @@ body{
     --footback:#2F303A;
     --textcolor:#757575;
     --headtextcolor:#212121;
+/* Header */
+.head{
+    background-color: var(--headback);
+    color: var(--headtextcolor);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+.web{
+    color: #2196F3;
+}
+.tel{
+    color: var(--textcolor);
+}
+/* Main */
+.hero{
+    background-color: #2F303A;
+    color:#FFFFFF;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
 }
