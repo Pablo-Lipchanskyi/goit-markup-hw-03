@@ -10,19 +10,17 @@ body{
 /* Header */
 .head{
     background-color: var(--headback);
-    color: var(--headtextcolor);
-    font-style: normal;
+    color:var(--headtextcolor)
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 14;
+    line-height: 16;
     letter-spacing: 0.02em;
 }
 .logo{
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
+    font-size: 26;
+    line-height: 31;
     letter-spacing: 0.03em;
 }
 .web{
@@ -32,11 +30,13 @@ body{
     color: var(--textcolor);
 }
 /* Main */
-.hero{
-    background-color: #2F303A;
+.banner{
+    background-color:#2F303A;
     color:#FFFFFF;
-    font-style: normal;
     font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
+    font-size: 44;
+    line-height: 60;
+}
+.command{
+    background-color: #F5F4FA;
 }
