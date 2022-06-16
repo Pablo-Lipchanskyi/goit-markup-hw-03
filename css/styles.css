@@ -1,23 +1,35 @@
+:root {
+    --bodyback: #e5e5e5;
+    --headback: #ffffff;
+    --footback: #2F303A;
+    --textcolor: #757575;
+    --headtextcolor: #212121;
+    --logocolor: #2196F3;
+    --buttonhover: #188ce8;
+    --buttonnohover: #f5f4fa;
+}
 body{
     font-family:'Roboto',sans-serif;
 }
-:root{
-    --bodyback:#e5e5e5;
-    --headback:#ffffff;
-    --footback:#2F303A;
-    --textcolor:#757575;
-    --headtextcolor:#212121;
-    --logocolor:#2196F3;
-    --buttonhover:#188ce8;
-    --buttonnohover:#f5f4fa;
+/*General*/
+a{
+    text-decoration: none;
 }
-/* Header */
+li{
+    list-style-type: none;
+}
+h1{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+}
+/*index Header */
 .head{
     background-color: var(--headback);
     color:var(--headtextcolor)
     font-weight 500;
-    font-size:14;
-    line-height:16;
+    font-size:14px;
+    line-height:1.14;
     letter-spacing:0.02em;
 }
 .head li:hover,
@@ -45,16 +57,16 @@ body{
 /* Main */
 .banner{
     background-color: var(--footback);
-    font-weight: 900;
+    font-weight: 900px;
     font-size: 44px;
-    line-height: 60px;
+    line-height:1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--headback);
 }
-.banner>button{
-    font-family: inherit;
+button{
+    font-family:'Roboto';
     width: 200px;
     height: 50px;
     left: 700px;
@@ -63,6 +75,9 @@ body{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: var(--headback);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
 }
 .banner>button:hover,
 .banner>button:focus{
@@ -73,7 +88,7 @@ body{
     color:var(--headtextcolor);
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -81,13 +96,13 @@ body{
     color: var(--textcolor);
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 .ourwork>h2{
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -97,7 +112,7 @@ body{
 .command>h2{
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -114,21 +129,21 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255,0.6)
 }
 .atext{
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--headback);
 }
 .link{
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -137,6 +152,7 @@ body{
     background-color: var(--buttonhover);
     color: var(--headback);
 }
+/* Portfolio*/
 .filter button{
     font-family: inherit;
     width: 145px;
@@ -157,14 +173,14 @@ body{
 .examples h2{
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--headtextcolor);
 }
 .examples p{
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--textcolor);
 }
