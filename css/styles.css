@@ -81,7 +81,7 @@ button{
     background-color: var(--buttonhover);
     color:var(--headback);
 }
-.features>h3{
+.features h3{
     color:var(--headtextcolor);
     font-weight: 700;
     font-size: 14px;
@@ -89,7 +89,7 @@ button{
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.features>p{
+.features p{
     color: var(--textcolor);
     font-weight: 400;
     font-size: 14px;
@@ -112,6 +112,20 @@ button{
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+}
+.command h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--headtextcolor);
+}
+.command p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing:0.03em;
+    color: var(--textcolor);
 }
 .command>li{
     background-color: var(--headback);
@@ -153,8 +167,8 @@ button{
 li>button {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.63;
-    text-align: center;
+    line-height:1.63;
+    text-align:center;
     letter-spacing: 0.03em;
     color: var(--headtextcolor);
     background-color: var(--buttonnohover);
@@ -169,10 +183,10 @@ li>button.current{
 .examples{
     background: var(--headback);
 }
-.examples h2{
+.examples h3{
     font-weight: 700;
     font-size: 18px;
-    line-height: 2;
+    line-height:2;
     letter-spacing: 0.06em;
     color: var(--headtextcolor);
 }
