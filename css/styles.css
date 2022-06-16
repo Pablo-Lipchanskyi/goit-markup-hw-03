@@ -150,18 +150,21 @@ button{
     color: var(--headback);
 }
 /* Portfolio*/
-.filter button{
+li>button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--headtextcolor);
+    background-color: var(--buttonnohover);
 }
-.filter.current,
-.filter:hover,
-.filter:focus{
-    color: var(--logocolor);
+li>button:hover,
+li>button:focus,
+li>button.current{
+    color: var(--headback);
+    background-color: var(--buttonhover);
+    
 }
 .examples{
     background: var(--headback);
