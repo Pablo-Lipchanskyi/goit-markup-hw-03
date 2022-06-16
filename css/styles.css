@@ -43,8 +43,8 @@ h1{
 .logo{
     font-family:'Raleway';
     font-weight:700;
-    font-size:26;
-    line-height:31;
+    font-size:26px;
+    line-height:1.19;
     letter-spacing:0.03em;
     color: var(--logocolor)
 }
@@ -66,11 +66,6 @@ h1{
     color: var(--headback);
 }
 button{
-    font-family:'Roboto';
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
     background: var(--logocolor);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -78,6 +73,8 @@ button{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 .banner>button:hover,
 .banner>button:focus{
@@ -154,13 +151,12 @@ button{
 }
 /* Portfolio*/
 .filter button{
-    font-family: inherit;
-    width: 145px;
-    height: 38px;
-    left: 712px;
-    top: 174px;
-    background: var(--buttonnohover);
-    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 .filter.current,
 .filter:hover,
