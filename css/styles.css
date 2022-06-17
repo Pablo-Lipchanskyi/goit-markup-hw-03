@@ -5,8 +5,13 @@
     --textcolor: #757575;
     --headtextcolor: #212121;
     --logocolor: #2196F3;
+    --buttoncolor:#2196F3;
+    --buttontext:#ffffff;
+    --studiocolor:#000000;
+    --backforteamlist:#f5f4fa;
     --buttonhover: #188ce8;
     --buttonnohover: #f5f4fa;
+    --webfoot:#ffffff;
 }
 body{
     font-family:'Roboto',sans-serif;
@@ -45,7 +50,7 @@ li{
     color: var(--logocolor)
 }
 .studio{
-    color: #000000;
+    color:var(--studiocolor) ;
 }
 .tel{
     color: var(--textcolor);
@@ -68,10 +73,10 @@ li{
 }
 button{
     cursor: pointer;
-    background: var(--logocolor);
+    background: var(--buttoncolor);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    color: var(--headback);
+    color: var(--buttontext);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -106,7 +111,7 @@ button{
     letter-spacing: 0.03em;
 }
 .command{
-    background-color: var(--buttonnohover);
+    background-color: var(--backforteamlist);
 }
 .command>h2{
     font-weight: 700;
@@ -128,14 +133,11 @@ button{
     letter-spacing:0.03em;
     color: var(--textcolor);
 }
-.command>li{
-    background-color: var(--headback);
-}
 .footer{
     background-color: var(--footback);
 }
 .webfoot{
-    color: var(--headback);
+    color: var(--webfoot);
 }
 .adress{
     font-style: normal;
