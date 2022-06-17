@@ -28,10 +28,9 @@ li{
     line-height:1.14;
     letter-spacing:0.02em;
 }
-.head li:hover,
-.head li:focus{
-    background-color:var(--button);
-    color: var(--button);
+.head a:hover,
+.head a:focus{
+    text-decoration: underline;
 }
 .navigation-link.current{
     color: var(--logocolor);
@@ -149,6 +148,7 @@ button{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--headback);
+    text-decoration: none;
 }
 .link{
     font-size: 14px;
