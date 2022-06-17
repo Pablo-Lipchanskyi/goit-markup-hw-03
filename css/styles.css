@@ -20,6 +20,7 @@ body{
 /*General*/
 a{
     text-decoration: none;
+    color: var(--headtextcolor);
 }
 li{
     list-style-type: none;
@@ -27,16 +28,11 @@ li{
 /*index Header */
 .head{
     background-color: var(--headback);
-    color:var(--headtextcolor)
-    font-weight 500;
+    color:var(--headtextcolor);
+    font-weight:500;
     font-size:14px;
     line-height:1.14;
     letter-spacing:0.02em;
-}
-.head a:hover,
-.head a:focus{
-    text-decoration: underline;
-    text-decoration-color: var(--buttonhover);
 }
 .navigation-link.current{
     color: var(--logocolor);
@@ -47,7 +43,7 @@ li{
     font-size:26px;
     line-height:1.19;
     letter-spacing:0.03em;
-    color: var(--logocolor)
+    color: var(--logocolor);
 }
 .studio{
     color:var(--studiocolor) ;
@@ -77,6 +73,7 @@ button{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: var(--buttontext);
+    font-family:'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -104,6 +101,7 @@ button{
     letter-spacing: 0.03em;
 }
 .ourwork>h2{
+    color: var(--headtextcolor);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -114,6 +112,7 @@ button{
     background-color: var(--backforteamlist);
 }
 .command>h2{
+    color: var(--headtextcolor);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -167,6 +166,7 @@ button{
 
 /* Portfolio*/
 li>button {
+    font-family:'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height:1.63;
