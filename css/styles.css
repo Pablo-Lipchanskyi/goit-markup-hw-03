@@ -34,6 +34,9 @@ li{
     line-height:1.14;
     letter-spacing:0.02em;
 }
+.mail{
+    color: var(--buttoncolor);
+}
 .navigation-link.current{
     color: var(--logocolor);
 }
