@@ -28,20 +28,34 @@ li{
 .container{
     width: 1200px;
 }
+
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+h1,h2,h3,p,ul{
+    margin: 0;
+}
 /*index Header */
 .head{
+    display: flex;
     background-color: var(--headback);
     color:var(--headtextcolor);
     font-weight:500;
     font-size:14px;
     line-height:1.14;
     letter-spacing:0.02em;
+    border-bottom: 1px solid #ECECEC;
 }
+
 .mail{
     color: var(--buttoncolor);
+    display: inline-block;
 }
 .navigation-link.current{
     color: var(--logocolor);
+    
 }
 .logo{
     font-family:'Raleway';
@@ -52,7 +66,7 @@ li{
     color: var(--logocolor);
 }
 .studio{
-    color:var(--studiocolor) ;
+    color:var(--studiocolor);
 }
 .tel{
     color: var(--textcolor);
@@ -160,7 +174,7 @@ button{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255,0.6)
+    color: rgba(255, 255, 255,0.6);
 }
 .atext{
     font-size: 14px;
@@ -201,6 +215,12 @@ li>button.current{
 }
 .examples{
     background: var(--headback);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.examples li{
+    border: 1px solid #EEEEEE;
 }
 .examples h3{
     font-weight: 700;
