@@ -35,6 +35,8 @@ ul {
 .container{
     width: 1200px;
     text-align: center;
+    padding: 0px 15px 0px 15px;
+    margin: 0 auto;
 }
 
 .section{
@@ -179,7 +181,6 @@ button{
     align-items: center;
 }
 .features>li{
-    
     margin-right:30px;
 }
 .features p{
@@ -200,8 +201,8 @@ button{
     letter-spacing: 0.03em;
 }
 .work-container{
-    display: block;
-    align-items: center;
+    display: inline;
+    
 }
 .work-header{
     color: var(--headtextcolor);
@@ -239,7 +240,7 @@ button{
     color: var(--textcolor);
 }
 .comm-container{
-    display: block;
+    display: inline;
     align-items: center;
 }
 .comm-header{
@@ -261,8 +262,19 @@ button{
     margin-right: 215px;
     margin-bottom: 94px;
 }
-.individ:no(:last-child){
+.individ{
+    display: block;
     margin-right: 30px;
+    width: 270px;
+    border: 1px solid tomato;
+    background: var(--webfoot);
+}
+.description-name{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.description{
+    margin-bottom: 30px ;
 }
 .footer{
     background-color: var(--footback);
