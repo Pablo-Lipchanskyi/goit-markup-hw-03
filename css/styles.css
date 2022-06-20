@@ -208,31 +208,22 @@ button{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
+    width: 376px;
     margin-left: 612px;
     margin-right: 612px;
     margin-bottom: 50px;
 }
 .work-list{
     display: flex;
-    align-items: center;
     margin-left: 215px;
     margin-right: 215px;
+
 }
-.work-list-items{
-    margin-right: 5px;
+.work-list-items:not(:last-child) {
+    margin-right: 30px;
 }
 .command{
     background-color: var(--backforteamlist);
-}
-.command h2{
-    color: var(--headtextcolor);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
 }
 .command h3{
     font-weight: 500;
@@ -246,6 +237,32 @@ button{
     line-height: 1.19;
     letter-spacing:0.03em;
     color: var(--textcolor);
+}
+.comm-container{
+    display: block;
+    align-items: center;
+}
+.comm-header{
+    color: var(--headtextcolor);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+    width: 264px;
+    margin-left: 668px;
+    margin-right: 668px;
+    margin-bottom: 50px;
+    padding-top: 94px;
+}
+.comm-list{
+    display: flex;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-bottom: 94px;
+}
+.individ:no(:last-child){
+    margin-right: 30px;
 }
 .footer{
     background-color: var(--footback);
