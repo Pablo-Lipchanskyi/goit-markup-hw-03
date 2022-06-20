@@ -25,8 +25,16 @@ a{
 li{
     list-style-type: none;
 }
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+}
 .container{
     width: 1200px;
+    text-align: center;
 }
 
 .section{
@@ -34,12 +42,8 @@ li{
     padding-bottom: 94px;
 }
 
-h1,h2,h3,p,ul{
-    margin: 0;
-}
 /*index Header */
 .head{
-    display: flex;
     background-color: var(--headback);
     color:var(--headtextcolor);
     font-weight:500;
@@ -48,31 +52,62 @@ h1,h2,h3,p,ul{
     letter-spacing:0.02em;
     border-bottom: 1px solid #ECECEC;
 }
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--logocolor);
+    margin-left: 215px;
+    margin-top: 24px;
+    margin-bottom: 25px;
+}
 
+.studio{
+    color: var(--studiocolor);
+}
+.head-container{
+    width: 1600px;
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav-list>ul{
+    display: flex;
+    align-items: center;
+}
+.contact-list{
+    display: flex;
+    margin-left: auto;
+}
 .mail{
     color: var(--buttoncolor);
     display: inline-block;
 }
 .navigation-link.current{
     color: var(--logocolor);
+    margin-left: 93px;
     
 }
-.logo{
-    font-family:'Raleway';
-    font-weight:700;
-    font-size:26px;
-    line-height:1.19;
-    letter-spacing:0.03em;
-    color: var(--logocolor);
+.navigation-link{
+    margin-left: 50px;
 }
-.studio{
-    color:var(--studiocolor);
+.contact-list{
+    margin-left: 331px;
 }
 .tel{
     color: var(--textcolor);
+    margin-left: 50px;
 }
 /* Main */
+
 .banner{
+    display: inline-block;
     background-color: var(--footback);
     font-weight: 900px;
     font-size: 44px;
@@ -96,9 +131,12 @@ h1,h2,h3,p,ul{
     overflow: hidden;
 }
 .text-logo{
+    display: inline-block;
+    text-align: center;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    justify-content: center;
 }
 button{
     cursor: pointer;
@@ -116,6 +154,9 @@ button{
 .banner>button:focus{
     background-color: var(--buttonhover);
     color:var(--headback);
+}
+.features{
+    display: inline;
 }
 .features h3{
     color:var(--headtextcolor);
