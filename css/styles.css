@@ -25,6 +25,9 @@ a{
 li{
     list-style-type: none;
 }
+.container{
+    width: 1200px;
+}
 /*index Header */
 .head{
     background-color: var(--headback);
@@ -114,7 +117,7 @@ button{
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-.ourwork>h2{
+.ourwork h2{
     color: var(--headtextcolor);
     font-weight: 700;
     font-size: 36px;
@@ -125,7 +128,7 @@ button{
 .command{
     background-color: var(--backforteamlist);
 }
-.command>h2{
+.command h2{
     color: var(--headtextcolor);
     font-weight: 700;
     font-size: 36px;
