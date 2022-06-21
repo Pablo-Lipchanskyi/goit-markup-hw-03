@@ -326,7 +326,16 @@ padding-bottom: 60px;
 }
 
 /* Portfolio*/
-li>button {
+.menu-button{
+    display: flex;
+    align-items: center;
+    margin:94px 494px 56px 517px;
+}
+.menu-item{
+    display: inline-block;
+    padding: 6px 22px 6px 22px;
+}
+.menu-item>button {
     font-family:'Roboto';
     font-weight: 500;
     font-size: 16px;
@@ -335,6 +344,7 @@ li>button {
     letter-spacing: 0.03em;
     color: var(--headtextcolor);
     background-color: var(--buttonnohover);
+    margin-right: 8px;
 }
 li>button:hover,
 li>button:focus,
@@ -348,9 +358,12 @@ li>button.current{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
 }
 .examples li{
     border: 1px solid #EEEEEE;
+    margin-right: 30px;
+
 }
 .examples h3{
     font-weight: 700;
