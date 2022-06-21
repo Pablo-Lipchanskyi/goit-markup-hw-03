@@ -36,12 +36,12 @@ ul {
     width: 1200px;
     align-items: center;
     padding: 0px 15px 0px 15px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section{
     padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 /*index Header */
@@ -181,8 +181,13 @@ button{
     display: flex;
     align-items: left;
     padding: 0;
+    margin: 0;
+    list-style: none;
 }
-.features>li:not(:last-child){
+.features>.feature-list{
+    flex-basis: calc(100%/4);
+}
+.features>.feature-list:not(:last-child){
     margin-right:30px;
 }
 
@@ -202,9 +207,9 @@ button{
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
+/*Работа*/
 .work-container{
     display: inline;
-    
 }
 .work-header{
     color: var(--headtextcolor);
@@ -220,11 +225,16 @@ button{
     display: flex;
     margin-left: 215px;
     margin-right: 215px;
-
+}
+.work-list-items{
+    display: block;
+    width: 370px;
+    flex-basis: calc(100/3);
 }
 .work-list-items:not(:last-child) {
     margin-right: 30px;
 }
+/*Команда*/
 .command{
     background-color: var(--backforteamlist);
 }
@@ -242,9 +252,7 @@ button{
     color: var(--textcolor);
 }
 .comm-container{
-    display: inline-block;
-    justify-content: space-evenly;
-    width: 1600px;
+    
 }
 .comm-header{
     color: var(--headtextcolor);
@@ -261,13 +269,13 @@ button{
 }
 .comm-list{
     display: flex;
-    padding-left: 215px;
-    margin-right: 215px;
+    padding-right: 215px;
     margin-bottom: 94px;
 }
 .individ{
     text-align: center;
-    display: inline-block;
+    display: block;
+    
     margin-right: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
