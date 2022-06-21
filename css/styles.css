@@ -36,6 +36,7 @@ ul {
     width: 1200px;
     align-items: center;
     padding: 0px 15px 0px 15px;
+    margin: auto;
 }
 
 .section{
@@ -328,8 +329,7 @@ padding-bottom: 60px;
 /* Portfolio*/
 .menu-button{
     display: flex;
-    align-items: center;
-    margin:94px 494px 56px 517px;
+    margin:94px auto 56px auto;
 }
 .menu-item{
     display: inline-block;
