@@ -36,11 +36,10 @@ ul {
     width: 1200px;
     align-items: center;
     padding: 0px 15px 0px 15px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .section{
-    margin: 0 auto;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -267,6 +266,7 @@ button{
     margin-bottom: 94px;
 }
 .individ{
+    text-align: center;
     display: inline-block;
     margin-right: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -329,10 +329,9 @@ padding-bottom: 60px;
 /* Portfolio*/
 .menu-button{
     display: flex;
-    margin:94px auto 56px auto;
 }
 .menu-item{
-    display: inline-block;
+    display: flex;
     padding: 6px 22px 6px 22px;
 }
 .menu-item>button {
