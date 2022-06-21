@@ -34,12 +34,12 @@ ul {
 }
 .container{
     width: 1200px;
-    text-align: center;
+    align-items: center;
     padding: 0px 15px 0px 15px;
-    margin: 0 auto;
 }
 
 .section{
+    margin: 0 auto;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -61,7 +61,6 @@ ul {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--logocolor);
-    margin-left: 215px;
     margin-top: 24px;
     margin-bottom: 25px;
 }
@@ -69,11 +68,14 @@ ul {
 .studio{
     color: var(--studiocolor);
 }
+.menu{
+    margin-left: 93px;
+}
 .head-container{
     width: 1600px;
     display: flex;
     align-items: center;
-    margin-right: 0px;
+    margin-right: 215px;
 }
 .nav-list{
     display: flex;
@@ -100,7 +102,8 @@ ul {
     margin-left: 50px;
 }
 .contact-list{
-    margin-left: 331px;
+    margin-right: 0;
+    margin-left: auto;
 }
 .tel{
     color: var(--textcolor);
@@ -134,7 +137,6 @@ ul {
     width: 1600px;
     display: block;
     align-items: center;
-    margin-bottom: 94px;
 }
 .text-logo{
     display: block;
@@ -142,14 +144,15 @@ ul {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    padding: 200px 452px 30px 452px;
+    margin: 200px 452px 30px 452px;
 }
 .hero-button{
     width: 200px;
     height: 50px;
     left: 700px;
     top: 430px;
-    margin-bottom: 200px;
+    margin-left: 732px;
+    margin-bottom: 280px;
 }
 button{
     cursor: pointer;
@@ -170,22 +173,19 @@ button{
 }
 .feature-cont{
     display: flex;
-    align-items: center;
     margin-left: 215px;
     margin-right: 215px;
-    margin-bottom: 94px;
-    text-align: left;
+    align-items: left;
 }
 .features{
     display: flex;
-    align-items: center;
+    align-items: left;
+    padding: 0;
 }
-.features>li{
+.features>li:not(:last-child){
     margin-right:30px;
 }
-.features p{
-    margin-top: 10px;
-}
+
 .features h3{
     color:var(--headtextcolor);
     font-weight: 700;
@@ -195,6 +195,8 @@ button{
     text-transform: uppercase;
 }
 .features p{
+    width: 270px;
+    margin-top: 10px;
     color: var(--textcolor);
     font-size: 14px;
     line-height: 1.71;
@@ -240,8 +242,9 @@ button{
     color: var(--textcolor);
 }
 .comm-container{
-    display: inline;
-    align-items: center;
+    display: inline-block;
+    justify-content: space-evenly;
+    width: 1600px;
 }
 .comm-header{
     color: var(--headtextcolor);
@@ -258,15 +261,15 @@ button{
 }
 .comm-list{
     display: flex;
-    margin-left: 215px;
+    padding-left: 215px;
     margin-right: 215px;
     margin-bottom: 94px;
 }
 .individ{
-    display: block;
+    display: inline-block;
     margin-right: 30px;
-    width: 270px;
-    border: 1px solid tomato;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
     background: var(--webfoot);
 }
 .description-name{
@@ -276,8 +279,12 @@ button{
 .description{
     margin-bottom: 30px ;
 }
+
 .footer{
-    background-color: var(--footback);
+background-color: var(--footback);
+padding-top: 60px;
+padding-left: 215px;
+padding-bottom: 60px;
 }
 .webfoot{
     color: var(--webfoot);
@@ -288,7 +295,17 @@ button{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255,0.6);
+    margin-top: 20px;  
 }
+.contacts{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.atext .link{
+    margin-bottom: 9px;
+}
+
 .atext{
     font-size: 14px;
     line-height: 1.71;
