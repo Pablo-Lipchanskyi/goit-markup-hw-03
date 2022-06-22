@@ -26,11 +26,12 @@ li{
     list-style-type: none;
 }
 h1,
-h2,
 h3,
 p,
 ul {
     margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 .container{
     width: 1200px;
@@ -134,25 +135,28 @@ ul {
     overflow: hidden;
 }
 .hero-container{
-    width: 1600px;
-    display: block;
-    align-items: center;
+    display: inline;
+    text-align: center;
 }
 .text-logo{
     display: block;
-    text-align: center;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    margin: 200px 452px 30px 452px;
+    margin-top: 200px;
+    margin-right: 452px;
+    margin-left: 452px;
+    margin-bottom: 30px;
 }
 .hero-button{
     width: 200px;
     height: 50px;
     left: 700px;
     top: 430px;
-    margin-left: 732px;
+    margin-left: 700px;
+    margin-right: 700px;
     margin-bottom: 280px;
+    outline-style: none;
 }
 button{
     cursor: pointer;
@@ -164,18 +168,19 @@ button{
     line-height: 1.9;
     text-align: center;
     letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    
 
 }
-.banner>button:hover,
-.banner>button:focus{
+.hero-button:hover,
+.hero-button:focus{
     background-color: var(--buttonhover);
     color:var(--headback);
 }
 .feature-cont{
     display: flex;
-    margin-left: 215px;
-    margin-right: 215px;
-    align-items: left;
+    align-items: center;
 }
 .features{
     display: flex;
@@ -209,27 +214,26 @@ button{
 }
 /*Работа*/
 .work-container{
-    display: inline;
+    display: block;
+    width: 1200px;
 }
 .work-header{
     color: var(--headtextcolor);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    width: 376px;
-    margin-left: 612px;
-    margin-right: 612px;
+    text-align: center;
     margin-bottom: 50px;
 }
 .work-list{
     display: flex;
-    margin-left: 215px;
-    margin-right: 215px;
+    padding: 0;
 }
 .work-list-items{
-    display: block;
-    width: 370px;
+    display: flex;
+    align-items: center;
     flex-basis: calc(100/3);
+
 }
 .work-list-items:not(:last-child) {
     margin-right: 30px;
@@ -237,6 +241,10 @@ button{
 /*Команда*/
 .command{
     background-color: var(--backforteamlist);
+    padding-bottom: 94px;
+}
+.comm-container{
+
 }
 .command h3{
     font-weight: 500;
@@ -251,35 +259,30 @@ button{
     letter-spacing:0.03em;
     color: var(--textcolor);
 }
-.comm-container{
-    
-}
 .comm-header{
     color: var(--headtextcolor);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-
     width: 264px;
-    margin-left: 668px;
-    margin-right: 668px;
     margin-bottom: 50px;
-    padding-top: 94px;
+    margin-left: 468px;
+    
 }
 .comm-list{
     display: flex;
-    padding-right: 215px;
-    margin-bottom: 94px;
+    
 }
 .individ{
     text-align: center;
     display: block;
-    
-    margin-right: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background: var(--webfoot);
+}
+.individ:not(:last-child){
+    margin-right: 30px;
 }
 .description-name{
     margin-top: 30px;
