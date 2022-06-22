@@ -38,8 +38,7 @@ ul {
     width: 1200px;
     align-items: center;
     padding: 0px 15px 0px 15px;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 
 .section{
@@ -77,6 +76,7 @@ ul {
     width: 1200px;
     display: flex;
     align-items: center;
+    margin-left: 215px;
     margin-right: 215px;
 }
 .nav-list{
@@ -141,6 +141,7 @@ ul {
 }
 .text-logo{
     display: block;
+    width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -158,6 +159,8 @@ ul {
     margin-right: 700px;
     margin-bottom: 280px;
     outline-style: none;
+    border-width: 0px;
+    min-width: 200px;
 }
 button{
     cursor: pointer;
@@ -182,6 +185,9 @@ button{
 .feature-cont{
     display: flex;
     align-items: center;
+    margin-left: 215px;
+    margin-right: 215px;
+    
 }
 .features{
     display: flex;
@@ -217,6 +223,8 @@ button{
 .work-container{
     display: block;
     width: 1200px;
+    margin-left: 215px;
+    margin-bottom: 94px;
 }
 .work-header{
     color: var(--headtextcolor);
@@ -245,7 +253,7 @@ button{
     padding-bottom: 94px;
 }
 .comm-container{
-
+    margin-left: 215px;
 }
 .command h3{
     font-weight: 500;
@@ -339,10 +347,12 @@ padding-bottom: 60px;
 }
 
 /* Portfolio*/
+.buttons-cont{
+    margin-left: 495px;
+}
 .menu-button{
     display: flex;
     align-items: center;
-    margin-left: 280px;
     flex-basis: calc(100%/5);
     margin-bottom: 50px;
     
@@ -355,7 +365,6 @@ padding-bottom: 60px;
     cursor: pointer;
     background: var(--buttonnohover);
     color: var(--buttonmenucolor);
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -365,6 +374,7 @@ padding-bottom: 60px;
     border-radius: 1px;
     border-color: var(--buttonnohover);
     padding: 6px 22px;
+    border-width: 0px;
 }
 li>button:hover,
 li>button:focus,
@@ -373,26 +383,35 @@ li>button.current{
     background-color: var(--buttonhover);
     
 }
+.example-cont{
+    margin-left:215px;
+}
 .examples{
-    background: var(--headback);
     display: flex;
+    background: var(--headback);
+    margin: 0;
+    padding: 0;
+    display:flex;
     flex-wrap: wrap;
-    flex-basis: calc(100%/3);
+    margin-left: -30px;
+    margin-top: -30px;
     
 }
-.examples li{
+.item{
     display: block;
     border: 1px solid #EEEEEE;
-
+    flex-basis: calc(100%/3 -30px);
+    margin-left: 30px;
+    margin-top: 30px;
 }
-.examples h3{
+.item>h3{
     font-weight: 700;
     font-size: 18px;
     line-height:2;
     letter-spacing: 0.06em;
     color: var(--headtextcolor);
 }
-.examples p{
+.item>p{
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
