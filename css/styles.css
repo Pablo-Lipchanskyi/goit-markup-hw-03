@@ -12,6 +12,7 @@
     --buttonhover: #188ce8;
     --buttonnohover: #f5f4fa;
     --webfoot:#ffffff;
+    --buttonmenucolor:#212121;
 }
 body{
     font-family:'Roboto',sans-serif;
@@ -73,7 +74,7 @@ ul {
     margin-left: 93px;
 }
 .head-container{
-    width: 1600px;
+    width: 1200px;
     display: flex;
     align-items: center;
     margin-right: 215px;
@@ -340,21 +341,30 @@ padding-bottom: 60px;
 /* Portfolio*/
 .menu-button{
     display: flex;
+    align-items: center;
+    margin-left: 280px;
+    flex-basis: calc(100%/5);
+    margin-bottom: 50px;
+    
 }
 .menu-item{
     display: flex;
-    padding: 6px 22px 6px 22px;
+    margin-right: 8px;
 }
 .menu-item>button {
-    font-family:'Roboto';
-    font-weight: 500;
+    cursor: pointer;
+    background: var(--buttonnohover);
+    color: var(--buttonmenucolor);
+    font-family: 'Roboto';
+    font-weight: 700;
     font-size: 16px;
-    line-height:1.63;
-    text-align:center;
-    letter-spacing: 0.03em;
-    color: var(--headtextcolor);
-    background-color: var(--buttonnohover);
-    margin-right: 8px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 1px;
+    border-color: var(--buttonnohover);
+    padding: 6px 22px;
 }
 li>button:hover,
 li>button:focus,
@@ -367,12 +377,11 @@ li>button.current{
     background: var(--headback);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    flex-basis: calc(100%/3);
     
 }
 .examples li{
     border: 1px solid #EEEEEE;
-    margin-right: 30px;
 
 }
 .examples h3{
