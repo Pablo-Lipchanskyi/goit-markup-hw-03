@@ -43,6 +43,7 @@ ul {
 
 .section{
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /*index Header */
@@ -115,14 +116,16 @@ ul {
 
 .banner{
     background-color: var(--footback);
-    font-weight: 900px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    
+    font-weight:900;
     font-size: 44px;
     line-height:1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--headback);
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 .visualy-hidden{
     position: absolute;
@@ -138,31 +141,21 @@ ul {
     overflow: hidden;
 }
 .hero-container{
-    display: block;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     
+    align-items: center;
 }
 .text-logo{
+    margin: 0 auto;
     display: block;
     width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    margin-top: 200px;
-    margin-right: 252px;
-    margin-left: 252px;
     margin-bottom: 30px;
 }
 .hero-button{
     width: 200px;
     height: 50px;
-    left: 700px;
-    top: 430px;
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-bottom: 200px;
     outline-style: none;
     border-width: 0px;
     min-width: 200px;
@@ -230,7 +223,6 @@ button{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 94px;
 }
 .work-header{
     color: var(--headtextcolor);
@@ -239,6 +231,7 @@ button{
     line-height: 1.17;
     text-align: center;
     margin-bottom: 50px;
+    margin-top: 0;
 }
 .work-list{
     display: flex;
@@ -268,6 +261,7 @@ button{
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--headtextcolor);
+    margin-bottom: 10px;
 }
 .command p{
     font-size: 16px;
@@ -281,9 +275,8 @@ button{
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    width: 264px;
+    margin-top: 0;
     margin-bottom: 50px;
-    margin-left: 468px;
     
 }
 .comm-list{
@@ -300,16 +293,14 @@ button{
 .individ:not(:last-child){
     margin-right: 30px;
 }
-.description-name{
-    margin-top: 30px;
-    margin-bottom: 10px;
+.name-prof{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-.description{
-    margin-bottom: 30px ;
-}
-
 .footer{
 background-color: var(--footback);
+padding-top: 94px;
+padding-bottom: 94px;
 
 }
 .foot-container{
@@ -343,12 +334,14 @@ background-color: var(--footback);
     letter-spacing: 0.03em;
     color: var(--headback);
     text-decoration: none;
+    margin-bottom: 9px;
 }
 .link{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 9px;
 }
 .footer a:hover,
 .footer a:focus{
